@@ -14,15 +14,15 @@ void z_alg(char * s, int z[]){
 			z[i] = right - left;
 			right--;
 		}
-//		else if(z[i - left] < right - i + 1){
-//			z[i] = z[i - left];
-//		}else{
-//			left  = i;
-//			while(right < n && s[right - left] == s[right]) right++;
-//			z[i] = right - left;
-//			right--;
-//			
-//		}
+		else if(z[i - left] < right - i + 1){
+			z[i] = z[i - left];
+		}else{
+			left  = i;
+			while(right < n && s[right - left] == s[right]) right++;
+			z[i] = right - left;
+			right--;
+			
+		}
 		
 	}	
 }
