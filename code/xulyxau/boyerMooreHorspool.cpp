@@ -28,8 +28,9 @@ int boyer(char *P, char *T)
 	}
 	return -1;
 }
+
 int main(){
-	char  P[] = "namsau";
+	char  P[] = "sau";
 	char  T[] = "mothaibabonnamsau";
 	cout << boyer(P, T);
 	
