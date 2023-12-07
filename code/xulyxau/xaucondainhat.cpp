@@ -42,8 +42,8 @@ string alg(string a, string b){
 }
 
 int main(){
-	string a = "acbaed";
-	string b = "abcadf";
+	string a = "122233wasd4413";
+	string b = "wqsdfasd123";
 	string s = alg(a,b);
 	cout << s;
 	

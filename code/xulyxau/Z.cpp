@@ -20,10 +20,8 @@ void z_alg(char * s, int z[]){
 			left  = i;
 			while(right < n && s[right - left] == s[right]) right++;
 			z[i] = right - left;
-			right--;
-			
-		}
-		
+			right--;			
+		}		
 	}	
 }
 int main(){
